@@ -1,0 +1,70 @@
+:root{
+  --cor-principal: #1d8b12;
+  --fonte-roboto: Roboto;
+  --cor-marrom: rgba(190, 170, 145, 0.993);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(Roboto-Regular.tff);
+}
+/*cabeçalho*/
+header{
+  background-color: var(--cor-marrom);
+}
+.cabeçalho{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cabeçalho img{
+  padding: 10px;
+}
+.cabeçalho #divBusca{
+  margin: 20px;
+}
+.navegações-cabeçalho{
+  margin: 20px;
+}
+.navegações-cabeçalho a{
+  padding-left: 3em;
+  text-decoration: none;
+  font-family: var(--fonte-roboto);
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  
+}
+.navegações-cabeçalho a:hover{
+  color: var(--cor-principal);
+}
+
+/*Botão buscar*/
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px var(--cor-principal);
+    border-radius:10px;
+    width:268px;
+    height:32px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size: 15px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height: 32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:var(--cor-principal);
+  }
+  
