@@ -67,4 +67,20 @@ header{
     font-weight:bold;
     background:var(--cor-principal);
   }
+  @media (max-width: 1000px){
+    #divBusca{
+      display: none;
+    }
+    .cabeçalho{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .cabeçalho a{
+      display: inline-block;
+      text-align: center;
+      
+    }
+    
   
+  }
