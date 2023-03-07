@@ -1,0 +1,30 @@
+:root{
+    --cor-divulgação: rgb(255, 255, 255);
+    --tamanho-fonte-divulgação: 30px;
+}
+@font-face {
+    font-family: Coolvetica;
+    src: url(../fontes/coolvetica\ rg.otf);
+}
+
+/*DIVULGAÇÕES*/
+.sessão-divulgação-martketing{
+    background-color: rgba(31, 110, 31, 0.938);
+    text-align: center;
+    
+}
+.sessão-divulgação-martketing h1{
+   padding:  10px;
+   color: var(--cor-divulgação);
+   font-size: var(--tamanho-fonte-divulgação);
+   font-family: Coolvetica;
+
+}
+
+@media (max-width: 1000px){
+    .sessão-divulgação-martketing{
+        margin-top: 5px;
+    }
+
+}
+
