@@ -10,25 +10,49 @@
 </head>
 <body>
 <!-----------Cabeçalho-------------->
-<header>
-    <section class="cabeçalho">
-        <div class="logo-agrorações">
-            <img src="imagens/logoagroraçoes.png" alt="Logo-Agro Rações">
-        </div>
-
-        <div id="divBusca">
-            <input type="text" id="txtBusca" placeholder="O que está procurando?"/>
-            <button id="btnBusca">Buscar</button>
-        </div>
-
-
-        <nav class="navegações-cabeçalho">
-             <a href="#">Contato</a>
+<header class="cabeçalho">
+    <div class="logo-agrorações">
+        <img src="imagens/logoagroraçoes.png" alt="Logo-Agro Rações">
+    </div>
+    <div id="divBusca">
+        <input type="text" id="txtBusca" placeholder="O que está procurando?"/>
+        <button id="btnBusca">Buscar</button>
+     </div>
+<!--Menu navegação desktop-->
+    <div class="menu-nagevação">
+        <nav>
+            <a href="#">Produtos</a>
+            <a href="#">Contatos</a>
             <a href="#">Entrar</a>
-        </nav>
-    </section>
-        
-      
+        </nav>  
+    </div>     
+<!---------Botão------->
+<button onclick="animar()" id="btn-menu">
+    <span class="linha"></span>
+    <span class="linha"></span>
+    <span class="linha"></span>
+ </button>
+<!--Menu navegação Mobile-->
+    <div class="menu-mobile" id="menu-mobile">
+        <nav>
+            <a href="#">Produtos</a>
+            <a href="#">Contatos</a>
+            <a href="#">Entrar</a>
+        </nav>  
+    </div>
 </header>
+<!---------Pesquisa para Mobile-------->
+<section class="section-pesquisa-menu"> 
+    <div id="divBusca-mobile">
+        <input type="text" id="txtBusca-mobile" placeholder="O que está procurando?"/>
+        <button id="btnBusca-mobile">Buscar</button>
+     </div>
+</section>
+
+
+<script src="cabeçalho.js">
+
+</script>
+
 </body>
 </html>
