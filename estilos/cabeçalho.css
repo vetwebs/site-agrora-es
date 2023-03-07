@@ -168,9 +168,17 @@ header{
       display: block;
       margin: 10px;
     }
+    .linha{
+      margin: 3px;
+    }
+
     .menu-mobile.abrir{
       visibility: visible;
       height: calc(100vh - 79px);
       
+    }
+
+    #btnBusca-mobile{
+      display: none;
     }
   }
