@@ -70,6 +70,41 @@
 .ração-filhote-1{
     margin-right: 5%;   
 }
+/*Informações Redes Sociais*/
+.informações h1{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.informações{
+    background-color: var(--cor-marrom);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    font-family: Coolvetica;
+}
+.redes-sociais_container{
+    text-align: center;
+    background-color: var(--cor-marrom);
+
+}
+.redes-sociais_container img{
+    padding: 10px;
+}
+footer{
+    padding-top: 20px;
+    background-color: var(--cor-marrom);
+    text-align: center;
+    
+}
+footer p{
+    font-family: Coolvetica;
+    
+}
+.copyright{
+    margin-top: 20px;
+}
+
 
 @media (max-width: 1000px){
     .sessão-divulgação-martketing{
@@ -88,6 +123,14 @@
     .principal__container__2 img, .rações-filhotes-principal__container img{
         width: 400px;
     }
+    .informações h1{
+        padding-bottom: 10px;
+
+    }
+    .copyright{
+        margin-top: 20px;
+    }
+
 }
 @media (max-width: 400px){
     .sessão-divulgação-martketing{
@@ -99,7 +142,7 @@
 
     .botões-saiba-mais{
         display: flex;
-        justify-content: center;
+        justify-content: center;   
     }
     .sessão-divulgação-martketing h1{
         font-size: 25px;}
@@ -112,6 +155,13 @@
         display: flex;
         justify-content: center;
 
+    }
+    .informações h1{
+        padding-bottom: 10px;
+
+    }
+    .copyright{
+        margin-top: 20px;
     }
 }
 @media (max-width: 300px){
@@ -137,5 +187,13 @@
         display: flex;
         justify-content: center;
 
+    }
+    .informações h1{
+        
+        padding-bottom: 10px;
+
+    }
+    .copyright{
+        margin-top: 20px;
     }
 }
