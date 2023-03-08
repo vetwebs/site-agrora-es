@@ -1,0 +1,142 @@
+:root{
+    --fonteprincipal: Roboto;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fontes/Roboto-Regular.ttf);
+  }
+
+.altaperformance__container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: linear-gradient(white, rgb(250, 242, 231));
+
+}
+.imagem__container{
+    margin-top: 30px;
+}
+.informaçõescompra__container{
+    margin: 20px;
+    padding: 10%;
+    border-radius: 20px;
+    background: linear-gradient(rgb(233, 215, 194), rgb(255, 254, 254));
+}
+.preço{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.preço h1{
+    font-size: 40px;
+    font-family: var(--fonteprincipal);
+    font-weight: bold;
+}
+.preço p{
+    font-family: var(--fonteprincipal);
+}
+/*Botões*/
+.informaçõescompra__container button{
+    padding: 10px;
+    
+}
+
+.botão-comprar button, .botão-comprar button a{
+    border: 1px solid rgb(40, 146, 19);
+    background-color: rgb(40, 146, 19);
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+}
+.botão-adicionaraocarrinho button, .botão-adicionaraocarrinho a{
+    border: 1px solid rgb(228, 84, 17, 0.938);
+    background-color: rgb(228, 84, 17, 0.938);
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.botão-adicionaraocarrinho a:hover{
+    color: black;
+    transition: 0.4s;
+    font-weight: bold;
+
+}
+.botão-comprar a:hover{
+    color: black;
+    transition: 0.4s;
+    font-weight: bold;
+
+}
+.botão-adicionaraocarrinho, .botão-comprar{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+/*Informações Sobre o produto*/
+/*Ficha tecnica*/
+.ficha-tecnica, .detalhe-do-produto{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+}
+.ficha-tecnica h1, .detalhe-do-produto{
+    font-weight: bold;
+    color:rgb(228, 84, 17, 0.938);
+    font-size: 30px;
+    font-family: var(--fonteprincipal);
+    margin: 10px;
+}
+.ficha-tecnica-informaçõesadd p{
+    font-size: 20px;
+    font-family: var(--fonteprincipal);
+    padding: 10px;
+}
+.ficha-tecnica-informaçõesadd strong{
+    font-weight: bold;
+}
+/*Detalhe do produto*/
+.sobre-afort{
+    margin-top: 20px;
+}
+.sobre-afort h2{
+    padding-left: 5%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: var(--fonteprincipal);
+}
+.sobre-afort p{
+    font-size: 20px;
+    font-family: var(--fonteprincipal);
+    margin: 10px;
+}
+
+
+
+
+
+
+@media (max-width: 1000px){
+    .imagem__container img{
+        width: 360px;
+    }
+
+}
+
+@media (max-width: 300px){
+    .imagem__container img{
+        width: 300px;
+    }
+    .botão-adicionaraocarrinho a{
+        font-size: 18px;
+    }
+
+    
+}
