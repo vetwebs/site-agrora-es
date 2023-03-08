@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ração Pequeninos</title>
+    <link rel="stylesheet" href="estilos/pequeninos.css">
+    <link rel="stylesheet" href="estilos/cabeçalho.css">
+    <link rel="stylesheet" href="estilos/altaperformance.css">
+    <link rel="stylesheet" href="estilos/reset.css">
+
+</head>
+<body>
+    <!-----------Cabeçalho-------------->
+<header class="cabeçalho">
+    <div class="logo-agrorações">
+        <img src="imagens/logoagroraçoes.png" alt="Logo-Agro Rações">
+    </div>
+    <div id="divBusca">
+        <input type="text" id="txtBusca" placeholder="O que está procurando?"/>
+        <button id="btnBusca">Buscar</button>
+     </div>
+<!--Menu navegação desktop-->
+    <div class="menu-nagevação">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="#">Rações</a>
+            <a href="#">Contatos</a>
+            <a href="#">Entrar</a>
+        </nav>  
+    </div>     
+<!---------Botão------->
+<button onclick="animar()" id="btn-menu">
+    <span class="linha"></span>
+    <span class="linha"></span>
+    <span class="linha"></span>
+ </button>
+<!--Menu navegação Mobile-->
+    <div class="menu-mobile" id="menu-mobile">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="#">Rações</a>
+            <a href="#">Contatos</a>
+            <a href="#">Entrar</a>
+        </nav>  
+    </div>
+</header>
+<!---------Pesquisa para Mobile-------->
+<section class="section-pesquisa-menu"> 
+    <div id="divBusca-mobile">
+        <input type="text" id="txtBusca-mobile" placeholder="O que está procurando?"/>
+        <button id="btnBusca-mobile">Buscar</button>
+     </div>
+</section>
+<!---------Informações Linha Alta Performance-------->
+<section class="altaperformance__container">
+    <div class="imagem__container">
+        <img src="imagens/pequeninos-detalhe-1.png" alt="Ração fort + com informações" width="570px">
+    </div>
+
+    <div class="informaçõescompra__container">
+         <div class="preço">
+            <h1>R$ 150,00</h1>
+            <p>ou 2x de R$ 75,00 sem juros</p>
+        </div>
+
+        <div class="botão-adicionaraocarrinho">
+            <button><a href="#">Adicionar ao carrinho</a></button>
+        </div>
+
+        <div class="botão-comprar">
+            <button><a href="#">Comprar</a></button>
+        </div>
+    </div>   
+</section>
+<!---------Informações Sobre o produto-------------->
+<!---------Ficha tecnica-------------->
+<section class="informações-sobreração__container">
+    <div class="ficha-tecnica">
+        <img src="imagens/ficha.png" alt="Logo ficha tecnica" width="30px">
+        <h1>Ficha tecnica</h1>
+    </div>
+    <div class="ficha-tecnica-informaçõesadd">
+        <p><strong>Porte:</strong> Raças Pequenas</p>
+        <p><strong>Tipo de Ração:</strong> Premium</p>
+        <p><strong>Idade:</strong> Adulto</p>
+        <p><strong>Peso da Ração:</strong> 15kg</p>
+        <p><strong>Raças de Cachorro:</strong> Todas as raças</p>
+    </div>
+</section>
+<!---------Detalhes do produto-------------->
+<section>
+    <div class="detalhe-do-produto">
+        <img src="imagens/iconeração.png" alt="Logo ficha tecnica" width="25px">
+        <h1>Sobre a ração</h1>
+    </div>
+    <div class="sobre-afort">
+        <h2>Ração Pequeninos</h2>
+        <p>A <strong>Ração Pequeninos</strong>é composta por todos os nutrientes e vitaminas necessárias para o seu pet.</p>
+        <p>Ela é ideal para animais de pequeno porte.</p>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+    <script src="java script/cabeçalho.js"></script>
+    
+</body>
+</html>
