@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/cadastro.css">
+    <link rel="stylesheet" href="estilos/cabeçalho.css">
+    <link rel="stylesheet" href="estilos/principal.css">
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="java script/cadastro.js">
+</head>
+</head>
+<body>
+    <!-----------Cabeçalho-------------->
+<header class="cabeçalho">
+    <div class="logo-agrorações">
+        <img src="imagens/logoagroraçoes.png" alt="Logo-Agro Rações">
+    </div>
+<!--Menu navegação desktop-->
+    <div class="menu-nagevação">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="#">Rações</a>
+            <a href="#">Contatos</a>
+            <a href="login.html">Entrar</a>
+        </nav>  
+    </div>     
+<!---------Botão------->
+<button onclick="animar()" id="btn-menu">
+    <span class="linha"></span>
+    <span class="linha"></span>
+    <span class="linha"></span>
+ </button>
+<!--Menu navegação Mobile-->
+    <div class="menu-mobile" id="menu-mobile">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="#">Rações</a>
+            <a href="#">Contatos</a>
+            <a href="login.html">Entrar</a>
+        </nav>  
+    </div>
+</header>
+<!----------Login------->
+<div class='container'>
+    <div class='card'>
+      <h1> Login </h1>
+      
+      <div id='msgError'></div>
+      <div id='msgSuccess'></div>
+      
+              <div class="label-float">
+                 <input type="text" id="usuario" placeholder=" " required>
+                 <label id="labelUsuario" for="usuario">Usuário</label>
+              </div>
+              
+              <div class="label-float">
+                 <input type="password" id="senha" placeholder=" " required>
+                 <label id="labelSenha" for="senha">Senha</label>
+                 <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+                 
+              </div>
+  
+              
+              <div class='justify-center'>
+                 <button onclick='cadastrar()'>Entrar</button>
+              </div>
+
+              <hr>
+              <div class="possui-conta">
+                <p>Não possui uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+              </div>
+
+  
+      
+    </div>
+</div>
+
+
+<script src="java script/login.js"></script>
+<script src="java script/cabeçalho.js"></script>
+    
+
+
+
+    
+</body>
+</html>
