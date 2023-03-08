@@ -80,7 +80,7 @@ header{
 }
 /*Menu navegação Mobile*/
 .menu-mobile{
-  background-color: #42c536c9;
+  background-color: #0d5506f5;
   display: flex;
   position: absolute;
   top: 78px;
@@ -94,7 +94,7 @@ header{
 }
 .menu-mobile a{
   display: block;
-  color: black;
+  color: rgb(255, 255, 255);
   font-family: var(--fonte-roboto);
   text-decoration: none;
   padding: 20px 30px;
@@ -103,7 +103,7 @@ header{
 
 }
 .menu-mobile a:hover{
-  color: rgb(255, 255, 255);
+  color: rgb(224, 107, 11);
 
 }
 

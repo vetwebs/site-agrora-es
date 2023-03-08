@@ -47,6 +47,12 @@
     color: rgba(0, 0, 0, 0.938)
 
 }
+.botões-saiba-mais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
 .sessão-ração-filhote{
     background-color: rgba(41, 76, 82, 0.938);
     text-align: center;
@@ -101,6 +107,9 @@ footer p{
     font-family: Coolvetica;
     
 }
+.redes-sociais-logo img{
+    margin:  30px;
+ }
 .copyright{
     margin-top: 20px;
 }
@@ -117,6 +126,7 @@ footer p{
     .botões-saiba-mais{
         display: flex;
         justify-content: center;
+        margin-bottom: 8px;
     }
     .sessão-divulgação-martketing h1{
         font-size: 25px;}
@@ -126,6 +136,9 @@ footer p{
     .informações h1{
         padding-bottom: 10px;
 
+    }
+    .redes-sociais-logo img{
+       margin:  30px;
     }
     .copyright{
         margin-top: 20px;
@@ -156,6 +169,9 @@ footer p{
         justify-content: center;
 
     }
+    .redes-sociais-logo img{
+        margin:  30px;
+     }
     .informações h1{
         padding-bottom: 10px;
 
@@ -187,7 +203,11 @@ footer p{
         display: flex;
         justify-content: center;
 
+        
     }
+    .redes-sociais-logo img{
+        margin:  30px;
+     }
     .informações h1{
         
         padding-bottom: 10px;
