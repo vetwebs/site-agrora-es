@@ -1,6 +1,10 @@
 :root{
     --cor-divulgação: rgb(255, 255, 255);
     --tamanho-fonte-divulgação: 30px;
+    --cor-principal: #1d8b12;
+     --fonte-roboto: Roboto;
+    --cor-marrom: rgb(192, 164, 129);
+      
 }
 @font-face {
     font-family: Coolvetica;
@@ -9,7 +13,7 @@
 
 /*DIVULGAÇÕES*/
 .sessão-divulgação-martketing{
-    background-color: rgba(31, 110, 31, 0.938);
+    background-color: rgba(228, 84, 17, 0.938);
     text-align: center;
     
 }
@@ -19,6 +23,52 @@
    font-size: var(--tamanho-fonte-divulgação);
    font-family: Coolvetica;
 
+}
+/*Principal*/
+.principal__container__2{
+    background: linear-gradient( to right, white 40%,#d1aaf8);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.principal__container__2 button, .rações-filhotes-principal__container button{
+    background-color: rgb(247, 242, 1);
+    padding: 5px;
+    border: 1px solid rgb(199, 219, 21);
+    border-radius: 5px;
+    
+}
+.principal__container__2 button a,.rações-filhotes-principal__container button a{
+    text-decoration: none;
+    font-family: Coolvetica;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.938)
+
+}
+.sessão-ração-filhote{
+    background-color: rgba(41, 76, 82, 0.938);
+    text-align: center;
+   
+}
+.sessão-ração-filhote h2{
+    padding:  10px;
+   color: var(--cor-divulgação);
+   font-size: var(--tamanho-fonte-divulgação);
+   font-family: Coolvetica;
+
+
+}
+.rações-filhotes-principal__container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient( to right, #f0f0f0 60%,#8f8ffc);
+}
+.ração-filhote-1{
+    margin-right: 5%;   
 }
 
 @media (max-width: 1000px){
