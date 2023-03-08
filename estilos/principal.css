@@ -26,7 +26,7 @@
 }
 /*Principal*/
 .principal__container__2{
-    background: linear-gradient( to right, white 40%,#d1aaf8);
+    background: linear-gradient( to right, white 40%,#e9dbf7);
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -65,7 +65,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    background: linear-gradient( to right, #f0f0f0 60%,#8f8ffc);
+    background: linear-gradient( to right, #f0f0f0 60%,#d4d4fa);
 }
 .ração-filhote-1{
     margin-right: 5%;   
@@ -74,7 +74,16 @@
 @media (max-width: 1000px){
     .sessão-divulgação-martketing{
         margin-top: 5px;
-    }
+        margin-bottom: 10px;}
 
+    .botões-saiba-mais{
+        display: flex;
+        justify-content: center;
+    }
+    .sessão-divulgação-martketing h1{
+        font-size: 25px;}
+    .principal__container__2 img, .rações-filhotes-principal__container img{
+        width: 400px;
+    }
 }
 
